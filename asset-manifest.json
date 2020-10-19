@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-org-chart/static/css/main.047fb8b0.chunk.css",
+    "main.js": "/react-org-chart/static/js/main.e7e5ebc2.chunk.js",
+    "main.js.map": "/react-org-chart/static/js/main.e7e5ebc2.chunk.js.map",
+    "runtime-main.js": "/react-org-chart/static/js/runtime-main.36560262.js",
+    "runtime-main.js.map": "/react-org-chart/static/js/runtime-main.36560262.js.map",
+    "static/js/2.a9e5a11c.chunk.js": "/react-org-chart/static/js/2.a9e5a11c.chunk.js",
+    "static/js/2.a9e5a11c.chunk.js.map": "/react-org-chart/static/js/2.a9e5a11c.chunk.js.map",
+    "index.html": "/react-org-chart/index.html",
+    "precache-manifest.4ad4c879a87b63ae1bc5f6889f79f4b4.js": "/react-org-chart/precache-manifest.4ad4c879a87b63ae1bc5f6889f79f4b4.js",
+    "service-worker.js": "/react-org-chart/service-worker.js",
+    "static/css/main.047fb8b0.chunk.css.map": "/react-org-chart/static/css/main.047fb8b0.chunk.css.map",
+    "static/js/2.a9e5a11c.chunk.js.LICENSE.txt": "/react-org-chart/static/js/2.a9e5a11c.chunk.js.LICENSE.txt",
+    "static/js/main.e7e5ebc2.chunk.js.LICENSE.txt": "/react-org-chart/static/js/main.e7e5ebc2.chunk.js.LICENSE.txt",
+    "static/media/avatar-personnel.svg": "/react-org-chart/static/media/avatar-personnel.f8399445.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36560262.js",
+    "static/js/2.a9e5a11c.chunk.js",
+    "static/css/main.047fb8b0.chunk.css",
+    "static/js/main.e7e5ebc2.chunk.js"
+  ]
+}
