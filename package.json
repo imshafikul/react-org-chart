@@ -1,7 +1,7 @@
 {
-  "name": "@unicef/react-org-chart",
+  "name": "@shafikulz/react-org-chart",
   "version": "0.3.4",
-  "description": "Simple, high-performance react component for d3 org chart",
+  "description": "Simple, high-performance react component for d3 org chart based on @",
   "main": "dist/index.js",
   "directories": {
     "example": "src/examples"
@@ -9,10 +9,10 @@
   "files": [
     "dist/index.js"
   ],
-  "homepage": "https://unicef.github.io/react-org-chart",
+  "homepage": "https://shafikulz.github.io/react-org-chart",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unicef/react-org-chart.git"
+    "url": "git+https://github.com/shafikulz/react-org-chart.git"
   },
   "scripts": {
     "start": "webpack --watch --mode production",
@@ -21,7 +21,7 @@
     "deploy": "cd examples && npm run deploy"
   },
   "keywords": [],
-  "author": "UNICEF, based on work of Fouad Matin <m@fouad.org>",
+  "author": "shafikulz, based on work of Shafikul Islam <shafikul.me@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
