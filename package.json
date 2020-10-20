@@ -1,6 +1,6 @@
 {
   "name": "@shafikulz/react-org-chart",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Simple, high-performance react component for d3 org chart based on @",
   "main": "dist/index.js",
   "directories": {

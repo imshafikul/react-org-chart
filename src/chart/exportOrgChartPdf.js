@@ -44,9 +44,9 @@ function exportOrgChartPdf({ loadConfig }) {
   // checking wether it has canvas in the convas-container div
   document.getElementById(`${id}-canvas-container`).querySelector('canvas')
     ? document
-        .getElementById(`${id}-canvas-container`)
-        .querySelector('canvas')
-        .remove()
+      .getElementById(`${id}-canvas-container`)
+      .querySelector('canvas')
+      .remove()
     : ''
 
   // creating a canvas element
@@ -60,15 +60,16 @@ function exportOrgChartPdf({ loadConfig }) {
   var step = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
   step.id = 'newsvg'
   step.setAttribute('width', svgWidth)
+  step.setAttribute('background', "red")
   step.setAttribute('height', svgHeight)
   step.setAttribute('viewBox', `0 0 ${svgWidth} ${svgHeight}`)
   step.innerHTML = document.getElementById('svg').innerHTML
 
   document.getElementById(`${id}-svg-container`).querySelector('svg')
     ? document
-        .getElementById(`${id}-svg-container`)
-        .querySelector('svg')
-        .remove()
+      .getElementById(`${id}-svg-container`)
+      .querySelector('svg')
+      .remove()
     : ''
   document.getElementById(`${id}-svg-container`).appendChild(step)
 
@@ -87,7 +88,7 @@ function exportOrgChartPdf({ loadConfig }) {
   image.src = imgSrc
 
   // downloading the image
-  image.onload = function() {
+  image.onload = function () {
     context.drawImage(image, 0, 0, width, height)
     const canvasData = canvas.toDataURL('image/jpeg,1.0')
 
