@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@unicef/react-org-chart": "file:..",
+    "@shafikulz/react-org-chart": "file:..",
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-d3": "^0.4.0",
