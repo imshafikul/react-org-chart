@@ -1,11 +1,14 @@
 const { createElement, PureComponent } = require('react')
 const { init } = require('../chart')
 
+const config = require('../chart/config')
+
 class OrgChart extends PureComponent {
   render() {
     const { id } = this.props
 
     return createElement('div', {
+      style: { backgroundColor: config.artBoardColor },
       id,
     })
   }

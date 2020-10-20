@@ -43,7 +43,7 @@ function renderLines(config = {}) {
       .insert('path', 'g')
       .attr('class', 'link')
       .attr('fill', 'none')
-      .attr('stroke', '#A9A9A9')
+      .attr('stroke', '#cccfdf')
       .attr('stroke-opacity', 1)
       .attr('stroke-width', 1.25)
       .attr('d', d => {
@@ -159,7 +159,7 @@ function renderLines(config = {}) {
       .exit()
       .transition()
       .duration(animationDuration)
-      .attr('d', function(d) {
+      .attr('d', function (d) {
         const source = {
           x: parentNode.x,
           y: parentNode.y,

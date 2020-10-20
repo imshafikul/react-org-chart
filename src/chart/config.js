@@ -8,7 +8,7 @@ const nodeSpacing = 12
 const nodePaddingX = 16
 const nodePaddingY = 16
 const avatarWidth = 48
-const nodeBorderRadius = 4
+const nodeBorderRadius = 9
 const margin = {
   top: 20,
   right: 20,
@@ -21,8 +21,9 @@ const lineType = 'angle'
 const lineDepthY = 120 /* Height of the line for child nodes */
 
 // Colors
+const artBoardColor = "#f5f6fa"
 const backgroundColor = '#fff'
-const borderColor = '#c9c9c9'
+const borderColor = "transparent"
 const nameColor = '#222d38'
 const titleColor = '#617080'
 const reportsColor = '#92A0AD'
@@ -45,6 +46,7 @@ const config = {
   titleColor,
   reportsColor,
   shouldResize,
+  artBoardColor
 }
 
 module.exports = config
